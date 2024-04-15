@@ -7,7 +7,7 @@
 const std::set<std::string>& readDictWords(std::string filename)
 {
 	static std::set<std::string> dict;
-	if(dict.size() == 0U)
+	if(dict.size() == 0)
 	{
         size_t cnt = 0;
 		std::ifstream ifile(filename.c_str());
